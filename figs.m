@@ -40,7 +40,7 @@ for n0 = [40,50,60,70] % the values for the fixed point population size
         % Calculate quasistationary distribution
         qs = iterative_qs();
         % mean time to extinction starting with quasistationary dist
-        mteq(ii) = 1/(D(1)*qs(1));
+        mteq(ii) = 1/(D(1)*qs(1)); % eq.(9)
         
         % Mean time to extinction starting with n0 individuals
         mten0(ii) = mte(n0);
