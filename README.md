@@ -8,11 +8,11 @@ The original calculations were done by Gian Marco Palamara and the figures
 in the paper are his. This is only the code that I used to reproduce some
 of Gian Marco's results.
 
-The file figs.m allows to produce plots similar to those in figures 3 and 4
+The file figs.m allows to produce plots similar to those in figures 4 and 5
 in the paper that show the mean time to extinction as a function of 
 handling time while keeping the overall predation pressure fixed.
 
-fig2.m produces a plot similar to the one in the lower panel of figure 2
+fig2.m produces a plot similar to the one in the lower panel of figure 3
 showing the mean time to extinction as a function of handling time and
 attack rate.
 

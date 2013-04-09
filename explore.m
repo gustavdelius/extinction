@@ -10,12 +10,13 @@ lambda = 1.5;
 mu = 0.5;
 r = lambda-mu;
 q = 0;
+z = 1;
 k = 150; 
 n = 1:k;
 
 % birth and death rates, see eq.(3)
 B = lambda*n.*(1-n/k);
-D = mu*n+alpha*n.^(q+1)./(1+alpha*h*n.^(q+1));
+D = mu*n+alpha*z*n.^(q+1)./(1+alpha*h*n.^(q+1));
 
 % calculate quasistationary distribution
 qs = iterative_qs();
